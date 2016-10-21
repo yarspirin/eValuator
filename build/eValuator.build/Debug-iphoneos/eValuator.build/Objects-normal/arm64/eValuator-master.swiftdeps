@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.3 (swiftlang-800.10.12 clang-800.0.38)"
+options: "1da82fca7ac88b683812758104a07f77"
+build_time: [530405151, 605463000]
+inputs:
+  "/Users/yar/Desktop/Xcode projects/eValuator/EvaluatorBrain.swift": [524871609, 0]
+  "/Users/yar/Desktop/Xcode projects/eValuator/eValuator/ViewController.swift": [524871741, 0]
+  "/Users/yar/Desktop/Xcode projects/eValuator/eValuator/AppDelegate.swift": [524838076, 0]

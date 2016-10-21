@@ -1,0 +1,177 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EvaluatorBrain"
+provides-nominal:
+- "C9eValuator14EvaluatorBrain"
+- "OC9eValuator14EvaluatorBrainP33_DD37C72D0BD34D3826B1F6028B8F96549Operation"
+- "VC9eValuator14EvaluatorBrainP33_DD37C72D0BD34D3826B1F6028B8F965426PendingBinaryOperationInfo"
+provides-member:
+- ["C9eValuator14EvaluatorBrain", ""]
+- ["OC9eValuator14EvaluatorBrainP33_DD37C72D0BD34D3826B1F6028B8F96549Operation", ""]
+- ["VC9eValuator14EvaluatorBrainP33_DD37C72D0BD34D3826B1F6028B8F965426PendingBinaryOperationInfo", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "-"
+- "Dictionary"
+- "sin"
+- "asin"
+- !private "!="
+- "UnicodeScalarType"
+- "FloatLiteralType"
+- "M_E"
+- "log"
+- "/"
+- "cos"
+- "acos"
+- "*"
+- "EvaluatorBrain"
+- "IntegerLiteralType"
+- "+"
+- "sqrt"
+- "M_PI"
+- "tan"
+- "StringLiteralType"
+- "String"
+- "atan"
+- "Double"
+- "pow"
+depends-member:
+- ["Ps9AnyObject", "M_E"]
+- ["Ps9AnyObject", "M_PI"]
+- ["Ps9AnyObject", "Operation"]
+- !private ["Ps9AnyObject", "PendingBinaryOperationInfo"]
+- !private ["Ps9AnyObject", "accumulator"]
+- ["Ps9AnyObject", "acos"]
+- ["Ps9AnyObject", "asin"]
+- ["Ps9AnyObject", "atan"]
+- ["Ps9AnyObject", "cos"]
+- !private ["Ps9AnyObject", "executePendingBinaryOperation"]
+- ["Ps9AnyObject", "log"]
+- !private ["Ps9AnyObject", "operations"]
+- !private ["Ps9AnyObject", "pending"]
+- ["Ps9AnyObject", "pow"]
+- ["Ps9AnyObject", "sin"]
+- ["Ps9AnyObject", "sqrt"]
+- ["Ps9AnyObject", "tan"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "Key"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps28DictionaryLiteralConvertible", "Key"]
+- ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["C9eValuator14EvaluatorBrain", "Dictionary"]
+- ["C9eValuator14EvaluatorBrain", "Double"]
+- ["C9eValuator14EvaluatorBrain", "M_E"]
+- ["C9eValuator14EvaluatorBrain", "M_PI"]
+- ["C9eValuator14EvaluatorBrain", "Operation"]
+- ["C9eValuator14EvaluatorBrain", "PendingBinaryOperationInfo"]
+- ["C9eValuator14EvaluatorBrain", "String"]
+- !private ["C9eValuator14EvaluatorBrain", "accumulator"]
+- ["C9eValuator14EvaluatorBrain", "acos"]
+- ["C9eValuator14EvaluatorBrain", "asin"]
+- ["C9eValuator14EvaluatorBrain", "atan"]
+- ["C9eValuator14EvaluatorBrain", "cos"]
+- ["C9eValuator14EvaluatorBrain", "deinit"]
+- !private ["C9eValuator14EvaluatorBrain", "executePendingBinaryOperation"]
+- ["C9eValuator14EvaluatorBrain", "init"]
+- ["C9eValuator14EvaluatorBrain", "log"]
+- !private ["C9eValuator14EvaluatorBrain", "operations"]
+- !private ["C9eValuator14EvaluatorBrain", "pending"]
+- ["C9eValuator14EvaluatorBrain", "performClear"]
+- ["C9eValuator14EvaluatorBrain", "performEquals"]
+- ["C9eValuator14EvaluatorBrain", "performOperation"]
+- ["C9eValuator14EvaluatorBrain", "pow"]
+- ["C9eValuator14EvaluatorBrain", "result"]
+- ["C9eValuator14EvaluatorBrain", "setOperand"]
+- ["C9eValuator14EvaluatorBrain", "sin"]
+- ["C9eValuator14EvaluatorBrain", "sqrt"]
+- ["C9eValuator14EvaluatorBrain", "tan"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- !private "Ps9Equatable"
+- "C9eValuator14EvaluatorBrain"
+- !private "Ps13GeneratorType"
+- !private "Ps8Hashable"
+- "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/Swift_2.3.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "185e19491886d459d777073a80921c07"
